@@ -1,0 +1,60 @@
+body {
+    color: white;
+    background-color: rgb(8, 4, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: rgb(15, 15, 15);
+}
+
+button:active {
+    background-color: rgb(30, 30, 30);
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+.kalku {
+    background-color: rgb(18, 18, 18);
+    border-radius: 5px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display {
+    padding: 15px;
+    font-size: 1.5rem;
+    background-color: black;
+    text-align: right;
+    border: none;
+    color: aliceblue;
+}
+
+.aritmatika {
+    background-color: rgb(214, 129, 1);
+}
+.aritmatika:hover {
+    background-color: rgb(206, 136, 31);
+}
+.aritmatika:active {
+    background-color: rgb(202, 142, 53);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Kalkulator Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <div class="kalku">
+        <input id="display" readonly value="0">
+        <div id="keys">
+            <button class="aritmatika" type="button" onclick="appendToDisplay('+')">+</button>
+            <button type="button" onclick="appendToDisplay('7')">7</button>
+            <button type="button" onclick="appendToDisplay('8')">8</button>
+            <button type="button" onclick="appendToDisplay('9')">9</button>
+            <button class="aritmatika" type="button" onclick="appendToDisplay('-')">-</button>
+            <button type="button" onclick="appendToDisplay('4')">4</button>
+            <button type="button" onclick="appendToDisplay('5')">5</button>
+            <button type="button" onclick="appendToDisplay('6')">6</button>
+            <button class="aritmatika" type="button" onclick="appendToDisplay('x')">x</button>
+            <button type="button" onclick="appendToDisplay('1')">1</button>
+            <button type="button" onclick="appendToDisplay('2')">2</button>
+            <button type="button" onclick="appendToDisplay('3')">3</button>
+            <button class="aritmatika" type="button" onclick="appendToDisplay('/')">/</button>
+            <button type="button" onclick="appendToDisplay('0')">0</button>
+            <button type="button" onclick="appendToDisplay('.')">.</button>
+            <button type="button" onclick="Calculate('=')">=</button>
+            <button class="aritmatika" type="button" onclick="Clear('C')">C</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
